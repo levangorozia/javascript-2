@@ -60,22 +60,10 @@
 
 
 
+// davaleba #4 - შექმენით ფუნქცია რომელსაც გადაეცემა ერთი პარამეტრი. ეს პარამეტრი უნდა იყოს რიცხვების მასივი და ფუნქციამ უნდა დააბრუნოს ამ რიცხვებიდან მაქსიმალური:
 
-// davaleba #4 - შექმენით ფუნქცია რომელსაც გადაეცემა ერთი პარამეტრი. ეს პარამეტრი უნდა იყოს რიცხვების მასივი და 
-// ფუნქციამ უნდა დააბრუნოს ამ რიცხვებიდან მაქსიმალური:
+// ................
 
-// function sum (...numbers) {
-
-//     let numbersum = 0;
-//     for (let item of numbers){
-//         numbersum = numbersum + item;
-//     }
-
-// return numbersum;
-
-// }
-// let result = sum (5, 10, 14, 100,);
-// console.log(result);
 
 
 
@@ -83,4 +71,21 @@
 
 // let array = [1,2,4,10,34,5,7,87]
 
+// for (let item of array) {
+//         if ( item > 0 && item < 10){
+//         console.log(item);
+//          }
+//      }
+
+
+
 // davaleba #6
+
+// let numbers = [ 1,2,3,4,6,7,8,5,9,10 ]
+
+//    for (let item of numbers) {
+//     if (item <=5) {
+//         console.log(item);
+//     }
+// }
+
